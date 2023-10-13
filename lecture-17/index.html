@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div{
+            background-color: red;
+        }
+        /* Child Selector */
+        div > p{
+            background-color: aquamarine;
+        }
+        /* Descendant Selector */
+        div  p{
+            background-color: aquamarine;
+        }
+        /* Id selector */
+        h1{
+            background-color: bisque;
+            color: purple;
+            text-align: center;
+        }
+        /* class Selector */
+        .write{
+            color: green;
+            background-color: yellowgreen;
+        }
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selector */
+        a:visited{
+            color: orange;
+        }
+        a:link{
+            color: blue;
+        }
+        a:active{
+            background-color: rgb(63, 203, 157);
+        }
+        a:hover{
+            background-color: rgb(54, 117, 224);
+            font-size: 20px;
+        }
+        p:first-child{
+            background-color: rgb(22, 212, 222);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <p>I am first.</p>
+        <p>I an second.</p>
+    </main>
+    <div>
+        hii! how are you?
+    </div>
+    <div>
+        <p>This ia a paragraph.</p>
+    </div>
+    <h1 id="h1">This is CSS selectotr lecture</h1>
+
+    <div>
+        <p class="write">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sapiente illo ea quisquam ipsam pariatur, reprehenderit dignissimos temporibus enim necessitatibus consectetur eligendi in porro repellendus obcaecati minus saepe maiores ipsa hic et nam possimus eveniet. Totam dolor commodi, iusto explicabo maiores similique adipisci sequi labore itaque autem ut numquam illo fugiat sit accusamus debitis iure quibusdam facilis qui. Laboriosam iste totam labore ipsa officiis eveniet accusamus non!
+        </p>
+    </div>
+    <a href="https://www.google.com">Go on Google</a>
+
+    <a href="https://www.facebook1.com">Go on Facebook</a>
+</body>
+</html>
