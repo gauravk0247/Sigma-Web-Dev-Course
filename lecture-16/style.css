@@ -1,0 +1,7 @@
+#video{
+    display: flex;
+}
+video{
+    width: 250px;
+    height: 300px;
+}
