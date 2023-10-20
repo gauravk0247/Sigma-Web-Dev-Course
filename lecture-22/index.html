@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .con {
+            background-color: aqua;
+            border: 2px solid red;
+            font-size: 12px;
+            width: 80vw;
+            margin: auto;
+        }
+
+        .con p {
+            /* multiply by 1.5 of its original unit 
+            eg. 12*1.5=18 */
+            font-size: 1.5em;
+        }
+
+        .container {
+            background-color: aqua;
+            border: 2px solid red;
+            margin: 12px auto;
+            width: 80vw;
+            /* height: 80vh; */
+            font-size: 1.3rem;
+            min-height: 80vh;
+        }
+
+        .container > div {
+            width: 50%;
+            border: 2px solid blue;
+        }
+
+        .container > div > div{
+            width: 30%;
+            border: 2px solid red;
+        }
+
+        .foot {
+            background-color: aqua;
+            border: 2px solid red;
+            /* width: 80vmin; */
+            width: 80vw;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos.</p>
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, itaque sapiente. Voluptatibus impedit fuga,soluta, incidunt dolorem odio consequuntur ratione iure qui iste dicta rem debitis saepe ea cumque eveniet.
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius soluta ea beatae voluptatibus tenetur, accusamus, minima illo facere velit, commodi nam id hic!
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum?
+    </div>
+</body>
+
+</html>
