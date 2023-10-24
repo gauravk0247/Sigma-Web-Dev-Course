@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadows</title>
+    <style>
+        .box {
+            border: 2px solid blue;
+            /* Box shadow property */
+            box-shadow: 5px 3px 10px #865ad3;
+            margin: 23px;
+        }
+
+        .text {
+            /* Outline Propert can be used for the outline its lika a border but we also space add in outer side using outline-offset */
+            outline: 2px solid red;
+            outline-offset: 18px;
+            border: 2px solid blue;
+            outline: 2px solid red;
+            outline-offset: 18px;
+            border: 2px solid blue;
+            /* Text Shdow Property */
+            text-shadow: 1px 2px 2px #7622b1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a box.
+    </div>
+    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sit, nobis minus neque nisi iure
+        incidunt doloribus repellendus obcaecati, ipsa molestias sint? Quos?</p>
+</body>
+
+</html>
