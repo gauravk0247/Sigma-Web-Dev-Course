@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            --color: rgb(255, 200, 0);
+            --seccolor: rgb(219, 100, 195);
+            --pad:13px;
+            --font:18px;
+        }
+        .toc{
+            background-color: var(--color);
+            /* background-color: aqua; */
+        }
+        .toc ul{
+            display: flex;
+        }
+        .toc ul li{
+            list-style: none;
+            padding: var(--pad);
+            font-size: var(--font);
+            color: white;
+        }
+        span{
+            background-color: var(--seccolor);
+            color: white;
+            /* background-color: aquamarine; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="toc">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <div>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit error, nesciunt veniam, reiciendis recusandae esse placeat perspiciatis voluptate consequatur hic dicta nostrum, nisi omnis perferendis modi nemo facilis aliquid fugiat eveniet minima! Quam aliquid fugiat modi sapiente nulla amet distinctio laborum, qui autem alias neque quo nesciunt consectetur ducimus dolorum nihil. Expedita reiciendis perferendis nam est!</span>
+    </div>
+</body>
+
+</html>
