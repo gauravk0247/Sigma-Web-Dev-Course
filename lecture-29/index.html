@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card - Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .target{
+            display: flex;
+            justify-content: center;
+            border-radius: 6px;
+        }
+        .container {
+            outline: 3px solid grey;
+            outline-offset: 18px;
+            border: 2px solid black;
+            width: 255px;
+            padding: 11px 14px;
+            border-radius: 8px;
+            margin-top: 98px;
+        }
+        .container:hover{
+            box-shadow: 0px 1px 2px 7px #a13ba1;
+            width: 260px;
+        }
+
+        #myimg img {
+            height: 244px;
+            width: 244px;
+            border-radius: 12px;
+        }
+        div{
+            text-align: center;
+            padding: 6px;
+        }
+        button{
+            padding: 7px 20px;
+            color: white;
+            background-color: red;
+            border: 2px solid red;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="target">
+        <div class="container">
+            <div id="myimg">
+                <img src="1.jpg" alt="">
+            </div>
+            <div>
+                <span>Ready</span>
+                <span>Travel</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iusto quos dicta culpa maiores
+                    molestiae nisi ullam porro. Fugiat, et.</p>
+            </div>
+            <div id="btn">
+                <button>More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
