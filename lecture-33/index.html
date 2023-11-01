@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            --primary:red;
+            --secondary:blue;
+            --success:green;
+            --dark:black;
+        }
+        nav ul{
+            display: flex;
+            margin: 3px 6px;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        nav ul li a{
+            text-decoration: none;
+            padding: 3px 12px;
+        }
+        #red{
+            color: var(--primary);
+        }
+        #green{
+            color: var(--success);
+        }
+        #dark{
+            color: var(--dark);
+        }
+        #blue{
+            color: var(--secondary);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a id="red" href="">Home</a></li>
+            <li><a id="green" href="">About</a></li>
+            <li><a id="dark" href="">Services</a></li>
+            <li><a id="blue" href="">Contact Us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
