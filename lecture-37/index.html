@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+            top: 0;
+            position: sticky;
+
+        }
+        nav ul {
+            background-color: rgb(226, 131, 226);
+            padding: 10px;
+        }
+
+        nav ul li {
+            list-style: none;
+            display: inline-block;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            padding: 0px 8px;
+            color: rgb(235, 39, 39);
+            font-weight: 800;
+            font-family: Arial, Helvetica, sans-serif;
+            position: sticky;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            height: 90vh;
+        }
+
+        .boxes{
+            margin: 0px 80px;
+        }
+        .box {
+            border: 2px solid rgb(226, 215, 215);
+            height: 60vh;
+            width: 40vw;
+            display: inline-block;
+            margin: 12px 30px;
+            background-color: rgb(51, 153, 208);
+        }
+        footer{
+            background-color: rgb(226, 131, 226);
+            padding: 6px ;
+            text-align: center;
+            color: orangered;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+        }
+        .mytextbox{
+            border: 2px solid black;
+            height: 17vh;
+            width: 65vh;
+            border-radius: 8PX;
+            text-align: center;
+            margin: 10px auto;
+            font-size: 18px;
+        }
+        .fixedpose{
+            border: 2px solid black;
+            background-color: black;
+            border-radius: 100px;
+            width: 87px;
+            height: 87px;
+            margin: auto;
+            top: 600px;
+            right: 0;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="boxes">
+            <div class="box">
+
+            </div>
+            <div class="box">
+
+            </div>
+        </div>
+    </div>
+    <div class="mytextbox">
+        <p>Hey! i am ready to develop web base application.</p>
+    </div>
+    <div class="fixedpose">
+
+    </div>
+    <footer>&copy; Copyright All rights reserved</footer>
+</body>
+
+</html>
