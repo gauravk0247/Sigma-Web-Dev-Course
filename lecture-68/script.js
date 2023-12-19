@@ -19,3 +19,5 @@ document.querySelectorAll(".box").forEach(e =>{
     e.style.backgroundColor = "green";
     e.style.color="white";
 })
+
+document.getElementsByTagName("div");
