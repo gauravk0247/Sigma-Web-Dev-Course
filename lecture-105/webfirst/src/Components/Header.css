@@ -1,0 +1,9 @@
+nav{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 34px;
+    padding: 20px;
+}
