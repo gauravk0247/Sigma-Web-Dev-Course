@@ -5,5 +5,6 @@ async function sleep(){
         }, 1000);
     })
 }
+(function main(){})
 let a = await sleep()
 let b = await sleep()
