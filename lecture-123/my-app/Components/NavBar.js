@@ -1,18 +1,17 @@
-"use client"
 import React from 'react'
+import Link from 'next/link'
 
-const NavBar = () => {
+const Navbar = () => {
   return (
-    <div>
-      <nav>
-        <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-        </ul>
-      </nav>
-    </div>
+   <nav className='flex justify-between px-2 bg-slate-800 text-white py-4'>
+    <div className='logo font-blod'>FaceBook</div>
+    <ul className='flex gap-6'>
+        <Link href='/'>Home</Link>
+        <Link href='/about'>About</Link>
+        <Link href='/contact'>Contact</Link>
+    </ul>
+   </nav>
   )
 }
 
-export default NavBar
+export default Navbar

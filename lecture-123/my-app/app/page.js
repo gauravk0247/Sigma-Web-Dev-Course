@@ -1,18 +1,10 @@
-// "use client"
-// import { useState } from "react";
-import NavBar from "@/Components/NavBar"
-import fs from "fs/promises"
+import React from 'react'
+import Image from 'next/image';
 
 export default function Home() {
-  // const [count, setCount] = useState(0);
-  console.log("Hii I am gaurav")
-  let a = fs.readFile(".gitignore")
-  a.then(e=>{console.log(e.toString())})
   return (
-   <div>
-    {/* I am a component {count} */}
-    {/* <button onClick={()=>setCount(count+1)}>Click ME</button> */}
-    <NavBar/>
-   </div>
+    <div className='container my-5 size-80 bg-red-300 relative'>
+     <Image fill={true} className='mx-auto object-cover' src="https://th.bing.com/th/id/OIP.ir10U3ch9bBN99lwtedtUQHaDw?w=315&h=177&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="" />
+    </div>
   );
 }
